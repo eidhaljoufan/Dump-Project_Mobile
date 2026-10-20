@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvJudul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kalkulator MBG"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/etAngkaPertama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan angka pertama"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/tvJudul"
+        android:layout_marginTop="55dp"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/etAngkaKedua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan angka kedua"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/etAngkaPertama"
+        android:layout_marginBottom="10dp"
+        android:importantForAutofill="no" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupOperasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etAngkaKedua"
+        android:layout_marginBottom="20dp">
+
+
+    <RadioButton
+        android:id="@+id/rbTambah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tambah"
+        android:layout_below="@id/etAngkaKedua"
+        android:layout_marginTop="20dp"/>
+    <RadioButton
+        android:id="@+id/rbKurang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kurang"/>
+
+    <RadioButton
+        android:id="@+id/rbKali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kali"/>
+
+    <RadioButton
+        android:id="@+id/rbBagi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bagi"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnHitung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hitung"
+        android:layout_below="@id/radioGroupOperasi"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/tvHasil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hasil: "
+        android:textSize="18sp"
+        android:layout_below="@id/btnHitung"
+        android:layout_marginTop="20dp"/>
+</RelativeLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1E1E1E">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:paddingStart="18dp"
+        android:paddingEnd="18dp"
+        android:paddingTop="22dp"
+        android:background="#252526">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ChatJod"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gemini API • VSCode Dark Theme"
+            android:textColor="#9CDCFE"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <!-- CHAT AREA -->
+    <ScrollView
+        android:id="@+id/scrollChat"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true"
+        android:background="#1E1E1E">
+
+        <LinearLayout
+            android:id="@+id/chatContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="14dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Halo, saya Jhodie AI. Silakan ketik pertanyaan atau instruksi Anda."
+                android:textColor="#D4D4D4"
+                android:background="#2D2D30"
+                android:padding="12dp"
+                android:textSize="14sp"
+                android:layout_marginBottom="10dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <!-- INPUT AREA -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:background="#252526">
+
+        <EditText
+            android:id="@+id/edtPrompt"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:hint="Ketik pesan..."
+            android:textColorHint="#858585"
+            android:textColor="#D4D4D4"
+            android:textSize="14sp"
+            android:singleLine="true"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:background="#1E1E1E" />
+
+        <Button
+            android:id="@+id/btnSend"
+            android:layout_width="82dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="8dp"
+            android:text="Kirim"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#007ACC" />
+
+    </LinearLayout>
+
+    <!-- WATERMARK -->
+    <TextView
+        android:id="@+id/txtFooter"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:background="#01B0E1"
+        android:gravity="center"
+        android:text="© 2026 Jhodie Naufal Kertoprodjo"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" />
+
+</LinearLayout>

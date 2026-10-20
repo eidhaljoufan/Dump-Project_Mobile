@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">WorkOrder</string>
+
+    <!-- Work Order Activity Strings -->
+    <string name="wo_number_default">WO-2026-09012</string>
+    <string name="project_name_default">Project: FTTH Cluster Mutiara - Block B</string>
+    <string name="work_type_default">Pekerjaan: Penarikan Drop Cable 2C</string>
+
+    <string name="section_material_used">📦 MATERIAL TERPAKAI (REAL-TIME)</string>
+    <string name="mat1_title">FO Drop Cable 2C Flat Aerial</string>
+    <string name="mat1_limit">Limit BoQ Sisa: 350 M</string>
+    <string name="btn_minus">-</string>
+    <string name="cable_qty_default">150 M</string>
+    <string name="btn_plus">+</string>
+
+    <string name="mat2_title">S-Clamp / Drop Clamp</string>
+    <string name="mat2_unit">Satuan: Pcs</string>
+    <string name="clamp_qty_default">4 Pcs</string>
+
+    <string name="section_opm">⚡ PENGUKURAN REDAMAN (OPM)</string>
+    <string name="opm_label">Nilai Redaman (dBm)</string>
+    <string name="opm_hint">-21.45</string>
+    <string name="opm_status_default">Status: 🟢 PASS (Standar -18 s/d -24 dBm)</string>
+    <string name="btn_submit">💾 SIMPAN &amp; SELESAIKAN BAST</string>
+
+    <!-- String Formats & Messages -->
+    <string name="cable_qty_format">%d M</string>
+    <string name="clamp_qty_format">%d Pcs</string>
+    <string name="toast_fill_opm">Tolong isi nilai OPM terlebih dahulu!</string>
+    <string name="toast_summary_format">Laporan Terkirim!\nKabel: %d Meter\nS-Clamp: %d Pcs\nRedaman OPM: %s dBm</string>
+</resources>

@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.ChatJod" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- Warna utama ala VSCode -->
+        <item name="colorPrimary">#007ACC</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorPrimaryContainer">#005A9E</item>
+        <item name="colorOnPrimaryContainer">#FFFFFF</item>
+
+        <!-- Background aplikasi -->
+        <item name="android:windowBackground">#1E1E1E</item>
+        <item name="android:colorAccent">#007ACC</item>
+
+        <!-- Status bar & navigation bar -->
+        <item name="android:statusBarColor">#1E1E1E</item>
+        <item name="android:navigationBarColor">#1E1E1E</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+
+        <!-- Hilangkan actionbar bawaan -->
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+
+        <!-- Font default -->
+        <item name="android:fontFamily">sans</item>
+
+    </style>
+
+    <style name="Theme.ChatJod" parent="Base.Theme.ChatJod" />
+
+</resources>

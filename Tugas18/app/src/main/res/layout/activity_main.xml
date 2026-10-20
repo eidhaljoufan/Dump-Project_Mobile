@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="40dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EduVoice Learn"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnMath"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Materi Matematika"
+            android:contentDescription="Tombol untuk memilih materi matematika" />
+
+        <Button
+            android:id="@+id/btnLanguage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Materi Bahasa"
+            android:layout_marginTop="8dp"
+            android:contentDescription="Tombol untuk memilih materi bahasa" />
+
+        <Button
+            android:id="@+id/btnScience"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Materi Sains"
+            android:layout_marginTop="8dp"
+            android:contentDescription="Tombol untuk memilih materi sains" />
+
+        <TextView
+            android:id="@+id/textMaterial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#333333"
+            android:text="Isi materi akan muncul di sini"
+            android:textSize="18sp"
+            android:padding="16dp"
+            android:layout_marginTop="16dp"
+            android:background="#DDDDDD" />
+
+        <Button
+            android:id="@+id/btnRead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bacakan Materi"
+            android:layout_marginTop="16dp"
+            android:contentDescription="Tombol untuk membacakan materi" />
+
+        <Button
+            android:id="@+id/btnStop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Berhenti"
+            android:layout_marginTop="8dp"
+            android:contentDescription="Tombol untuk menghentikan suara" />
+
+        <!-- Watermark -->
+        <TextView
+            android:id="@+id/txtFooter"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="#01b0e1"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="© 2026 Jhodie Naufal Kertoprodjo"
+            android:textColor="#fff"
+            android:textSize="12sp" />
+    </LinearLayout>
+</ScrollView>

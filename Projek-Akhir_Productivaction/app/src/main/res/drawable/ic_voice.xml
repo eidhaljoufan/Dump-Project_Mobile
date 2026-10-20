@@ -1,0 +1,42 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Lingkaran Background -->
+    <path
+        android:fillColor="#2196F3"
+        android:pathData="M12,2A10,10 0,1 1,2 12A10,10 0,0 1,12 2Z"/>
+
+    <!-- Gelombang Kiri -->
+    <path
+        android:fillColor="#80DEEA"
+        android:pathData="M5,12a0.6,0.6 0,1 1,1.2 0a0.6,0.6 0,1 1,-1.2 0z"/>
+    <path
+        android:fillColor="#80DEEA"
+        android:pathData="M7,10v4h0.8v-4z"/>
+    <path
+        android:fillColor="#80DEEA"
+        android:pathData="M8.5,9v6h0.8V9z"/>
+
+    <!-- Gelombang Kanan -->
+    <path
+        android:fillColor="#80DEEA"
+        android:pathData="M18,12a0.6,0.6 0,1 1,1.2 0a0.6,0.6 0,1 1,-1.2 0z"/>
+    <path
+        android:fillColor="#80DEEA"
+        android:pathData="M16.2,10v4H17v-4z"/>
+    <path
+        android:fillColor="#80DEEA"
+        android:pathData="M14.7,9v6h0.8V9z"/>
+
+    <!-- Mikrofon -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M12,6a2,2 0,0 1,2 2v4a2,2 0,0 1,-4 0V8a2,2 0,0 1,2 -2z"/>
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M15.5,11.5a0.5,0.5 0,0 0,-1 0a2.5,2.5 0,0 1,-5 0a0.5,0.5 0,0 0,-1 0a3.5,3.5 0,0 0,3 3.46V17H10v1h4v-1h-1.5v-2.04a3.5,3.5 0,0 0,3-3.46z"/>
+</vector>

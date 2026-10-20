@@ -1,0 +1,32 @@
+# Android SDK & Tools
+Sdk/
+**/Sdk/
+
+# Root Level Caches & Builds
+/caches/
+/gradle-cache/
+/native/
+/wrapper/
+/build/
+.gradle/
+.idea/
+
+# Subfolders Build & Caches
+**/build/
+**/.gradle/
+**/gradle-cache/
+**/caches/
+**/native/
+**/.idea/
+
+# Local properties & Gradle binaries
+local.properties
+**/local.properties
+*.iml
+**/*.iml
+*.apk
+*.aar
+
+# OS Files
+.DS_Store
+Thumbs.db

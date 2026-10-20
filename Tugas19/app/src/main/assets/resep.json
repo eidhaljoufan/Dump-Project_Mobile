@@ -1,0 +1,23 @@
+[
+  {
+    "namaResep": "Nasi Goreng",
+    "daftarBahan": ["Nasi", "Bawang merah", "Bawang putih", "Kecap", "Telur"],
+    "langkah": [
+      {"urutan": 1, "instruksi": "Panaskan minyak"},
+      {"urutan": 2, "instruksi": "Tumis bumbu halus"},
+      {"urutan": 3, "instruksi": "Masukkan nasi dan kecap"}
+    ],
+    "kategori": {"nama": "Makanan Utama", "kode": "MKN"},
+    "rating": 4.5
+  },
+  {
+    "namaResep": "Smoothie Buah",
+    "daftarBahan": ["Pisang", "Strawberry", "Yogurt", "Madu"],
+    "langkah": [
+      {"urutan": 1, "instruksi": "Masukkan semua bahan ke blender"},
+      {"urutan": 2, "instruksi": "Blender hingga halus"}
+    ],
+    "kategori": {"nama": "Minuman", "kode": "MNM"},
+    "rating": 4.0
+  }
+]

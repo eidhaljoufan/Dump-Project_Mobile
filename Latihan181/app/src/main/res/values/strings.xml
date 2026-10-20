@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">Latihan 18</string>
+
+    <string name="button_description">
+        Tombol untuk memulai aksi
+    </string>
+
+    <string name="image_description">
+        Persegi adalah bentuk datar yang memiliki empat sisi sama panjang dan empat sudut yang semuanya siku-siku atau 90 derajat. Jika diraba, bentuk ini terasa rata dengan jarak dari tengah ke tiap sisi yang sama. Saat jari bergerak dari satu sudut ke sudut berikutnya, kamu akan merasakan pola gerakan lurus dan belokan kanan yang konsisten hingga kembali ke titik awal, membentuk bentuk yang simetris dan seimbang.
+    </string>
+
+</resources>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Todo List"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kelola tugas harian"
+                android:textColor="@color/textSecondary"
+                android:layout_gravity="center"
+                android:layout_marginBottom="25dp"/>
+
+            <EditText
+                android:id="@+id/edtTask"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:hint="Masukkan tugas..."
+                android:textColorHint="@color/textSecondary"
+                android:textColor="@color/white"
+                android:background="@drawable/bg_card"
+                android:padding="15dp"/>
+
+            <Button
+                android:id="@+id/btnAdd"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="15dp"
+                android:text="Tambah Task"
+                android:background="@drawable/bg_button"
+                android:textColor="@android:color/white"/>
+
+            <Button
+                android:id="@+id/btnRandom"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="10dp"
+                android:text="🎲 Generate Random Task"
+                android:background="@drawable/bg_button"
+                android:textColor="@android:color/white"/>
+
+            <Button
+                android:id="@+id/btnSpeak"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="10dp"
+                android:text="🔊 Bacakan Semua Task"
+                android:background="@drawable/bg_button"
+                android:textColor="@android:color/white"/>
+
+            <ListView
+                android:id="@+id/listTodo"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:layout_marginTop="20dp"
+                android:divider="#404040"
+                android:dividerHeight="1dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#01B0E1"
+        android:gravity="center"
+        android:text="© 2026 Jhodie Naufal Kertoprodjo"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"/>
+
+</LinearLayout>

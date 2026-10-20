@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#66D6F4">
+
+    <item>
+        <shape android:shape="rectangle">
+
+            <!-- Warna utama button -->
+            <solid android:color="#01B0E1"/>
+
+            <!-- Sudut membulat -->
+            <corners android:radius="12dp"/>
+
+            <!-- Padding agar ripple tidak terlalu mepet -->
+            <padding
+                android:left="12dp"
+                android:top="8dp"
+                android:right="12dp"
+                android:bottom="8dp"/>
+
+        </shape>
+    </item>
+
+</ripple>

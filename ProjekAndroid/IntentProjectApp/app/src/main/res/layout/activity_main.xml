@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editTextNIM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:hint="Masukkan NIM mahasiswa" />
+
+    <EditText
+        android:id="@+id/editTextNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextNIM"
+        android:layout_marginTop="20dp"
+        android:hint="Masukkan nama mahasiswa" />
+
+    <EditText
+        android:id="@+id/editTextJurusan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextNama"
+        android:layout_marginTop="20dp"
+        android:hint="Masukkan jurusan mahasiswa" />
+
+    <Button
+        android:id="@+id/buttonLanjut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextJurusan"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Pindah Activity" />
+
+    <Button
+        android:id="@+id/buttonOpenWeb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonLanjut"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Buka Halaman Web" />
+
+</RelativeLayout>

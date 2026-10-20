@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.PengingatCatatanHarian" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#01B0E1</item>
+        <item name="colorPrimaryVariant">#008CB5</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+
+        <item name="colorSecondary">#1E293B</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">#F4F7FB</item>
+        <item name="android:navigationBarColor">#F4F7FB</item>
+
+        <item name="android:fontFamily">sans</item>
+    </style>
+
+</resources>

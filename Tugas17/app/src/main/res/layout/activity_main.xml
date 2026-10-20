@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity">
+
+<Button
+    android:id="@+id/btnStartSpeech"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Mulai Input Suara"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="60dp"
+    android:onClick="startSpeechInput" />
+
+<EditText
+    android:id="@+id/etTaskInput"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/btnStartSpeech"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:hint="Atau ketik tugas di sini"
+    android:padding="10dp" />
+
+<Button
+    android:id="@+id/btnAddTask"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/etTaskInput"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:text="Tambah Tugas"
+    android:onClick="addTask" />
+
+<Button
+    android:id="@+id/btnDeleteTask"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/btnAddTask"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:text="Hapus Tugas Terpilih"
+    android:onClick="deleteTask" />
+
+<ListView
+    android:id="@+id/lvTasks"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/btnDeleteTask"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"/>
+
+<TextView
+    android:id="@+id/tvStatus"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Status: Siap"
+    android:layout_below="@+id/lvTasks"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="20dp"
+    android:textSize="14sp"
+    android:textColor="#888888" />
+
+<!-- Watermark -->
+    <TextView
+        android:id="@+id/txtWatermark"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:background="#01b0e1"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="© 2026 Jhodie Naufal Kertoprodjo"
+        android:textColor="#fff"
+        android:textSize="12sp" />
+
+</RelativeLayout>

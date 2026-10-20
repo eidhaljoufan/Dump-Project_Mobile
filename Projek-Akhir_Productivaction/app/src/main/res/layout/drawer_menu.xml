@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuHome"
+        android:icon="@drawable/ic_home"
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/menuRandom"
+        android:icon="@drawable/ic_random"
+        android:title="Random Task"/>
+
+    <item
+        android:id="@+id/menuVoice"
+        android:icon="@drawable/ic_accessibility"
+        android:title="Voice Assistant"/>
+
+    <item
+        android:id="@+id/menuTheme"
+        android:icon="@drawable/ic_theme"
+        android:title="Theme"/>
+
+    <item
+        android:id="@+id/menuInsight"
+        android:icon="@drawable/ic_insight"
+        android:title="Habit Insight"/>
+
+    <item
+        android:id="@+id/menuAbout"
+        android:icon="@drawable/ic_info"
+        android:title="About"/>
+</menu>

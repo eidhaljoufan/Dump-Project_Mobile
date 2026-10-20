@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:title="Home"
+        android:icon="@android:drawable/ic_menu_view"/>
+
+    <item
+        android:id="@+id/nav_random"
+        android:title="Random Task"
+        android:icon="@android:drawable/ic_menu_rotate"/>
+
+    <item
+        android:id="@+id/nav_insight"
+        android:title="Habit Insight"
+        android:icon="@android:drawable/ic_menu_compass"/>
+
+    <item
+        android:id="@+id/nav_theme"
+        android:title="Theme"
+        android:icon="@android:drawable/ic_menu_manage"/>
+
+    <item
+        android:id="@+id/nav_about"
+        android:title="About"
+        android:icon="@android:drawable/ic_menu_info_details"/>
+
+    <item
+        android:id="@+id/nav_exit"
+        android:title="Exit"
+        android:icon="@android:drawable/ic_lock_power_off"/>
+
+</menu>

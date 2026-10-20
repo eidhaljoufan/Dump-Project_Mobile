@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">Latihan18_2</string>
+
+    <string name="edit_text_description">
+        Kolom untuk memasukkan catatan
+    </string>
+
+    <string name="save_button_description">
+        Tombol untuk menyimpan catatan
+    </string>
+
+    <string name="list_view_description">
+        Daftar catatan
+    </string>
+
+</resources>

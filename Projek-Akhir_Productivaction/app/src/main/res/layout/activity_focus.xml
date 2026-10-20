@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@drawable/bg_gradient">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/topBarFocus"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@android:color/transparent"
+        app:navigationIcon="@drawable/ic_back"
+        app:navigationIconTint="@android:color/white"
+        app:title="Pomodoro Focus"
+        app:titleTextColor="@android:color/white"
+        android:layout_marginTop="-200dp"/> <!-- Adjusting because of center gravity -->
+
+    <TextView
+        android:id="@+id/txtMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Work Session"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/accent"
+        android:layout_marginTop="100dp"/>
+
+    <TextView
+        android:id="@+id/txtTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="25:00"
+        android:textSize="80sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="40dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnStartTimer"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:text="Start"
+            app:cornerRadius="30dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnPauseTimer"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="16dp"
+            android:text="Pause"
+            app:cornerRadius="30dp"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnResetTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset Timer"
+        android:layout_marginTop="16dp"
+        style="@style/Widget.Material3.Button.TextButton"
+        android:textColor="@color/textSecondary"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="ProductivAction • Pomodoro Method"
+        android:textColor="@color/textSecondary"
+        android:textSize="12sp"
+        android:layout_marginBottom="10dp"/>
+
+</LinearLayout>
